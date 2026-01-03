@@ -275,7 +275,7 @@ body {
     #menu {
         display: block;
         margin-right: 10px;
-        font-size: 20px;
+        font-size: 32px;
         color: rgba(225, 218, 218, 0.838);
     }
     .hero-contant  {
@@ -343,6 +343,11 @@ body {
     .ques h2 {
         font-size: 55px;
     }
+    .ques-card {
+        width: 98%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
 }
 @media only screen and (min-width:791px) and (max-width:1279px) {
        .container {
@@ -372,5 +377,11 @@ body {
     }
     .box img {
         width: 100%;
+    }
+     #nav ul {
+        display: block;
+    }
+    #nav ul li a {
+        color: aliceblue;
     }
 }
