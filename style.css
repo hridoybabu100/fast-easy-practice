@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(106, 106, 103);
+}
+.container {
+    width: 1280px;
+    margin: auto;
+}
+#nav-bg {
+    background-color:rgb(24, 24, 24); ;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+}
+#nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+#nav ul li {
+    list-style: none;
+
+}
+#nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    transition: 0.5s;
+    border-radius: 6px;
+}
+#nav ul li a:hover {
+    background-color: aliceblue;
+}
+
+.nav-img img {
+    width: 100px;
+    margin-left: 10px;
+}
+#menu {
+    display: none;
+    color: azure;
+    font-size: 30px;
+}
+
+/* hero section code hare  */
+
+#hero {
+    background-image: url(images/banner.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-contant  {
+    padding-top: 150px;
+    color: aliceblue; 
+}
+.hero-contant h1 {
+    font-size: 45px;
+}
+.hero-btn {
+    padding: 10px 20px;
+    background-color: cornsilk;
+    color: black;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+.hero-btn:hover {
+      background-image: linear-gradient(180deg, red, yellow);
+}
+
+
+/* first section code hare  */
+#promossion {
+    margin: 100px 0px;
+}
+.certificate {
+    text-align: center;
+    
+}
+.certificate img {
+    width: 350px;
+    border-radius: 6px;
+}
+.certificate h2 {
+    font-size: 40px;
+    color: rgb(30, 29, 28);
+    font-weight: bold;
+}
+.certificate p {
+  /* margin: 0px 30px;  */
+  color: rgb(229, 219, 224);
+  font-size: 30px;
+}
+.certificate *{
+    margin-bottom: 30px;
+}
+
+/* second section code hare  */
+#card-box {
+    margin-bottom: 100px;
+}
+
+
+.course-name {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.course-name h4 {
+    font-size: 30px;
+    letter-spacing: 20px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.course-name h1 {
+    font-size: 55px;
+    color: rgb(0, 255, 17);
+}
+.box-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.box {
+    width: 400px;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 6px;
+}
+.box h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.box-btn {
+    background-color: chartreuse;
+    margin: 15px 0px;
+    cursor: pointer;
+    padding: 7px 16px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box-btn:hover {
+     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+.box img {
+    width: 400px;
+     border-radius: 6px;
+}
+
+
+/* 3rd section code hare  */
+.ques {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.ques h2 {
+    color: rgb(255, 140, 0);
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.ques p {
+    font-size: 30px;
+    color: aliceblue;
+}
+.ques-card {
+    border-radius: 6px;
+    width: 100%;
+    padding: 40px 20px;
+    background-color: aliceblue;
+    margin-bottom: 30px;
+}
+
+
+/* footer section code hare  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:790px) {
+    .container {
+    width: 98%;
+    margin: auto;
+    }
+    .nav-img img {
+        width: 20%;
+        margin-left: 10px;
+    }
+    #nav ul {
+        display: none;
+    }
+    #menu {
+        display: block;
+        margin-right: 20px;
+        font-size: 20px;
+        color: rgb(225, 218, 218);
+    }
+    .hero-contant  {
+        text-align: center;
+    padding-top: 100px;
+    color: aliceblue; 
+    margin-bottom: 20px;
+    }
+    .hero-contant p {
+       margin: 15px 0px;
+    }
+    .hero-contant h1 {
+    font-size: 35px;
+    }
+    .certificate img {
+        width: 50%;
+    }
+    .certificate p {
+    /* margin: 0px 30px;  */
+    color: rgb(229, 219, 224);
+    font-size: 20px;
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    }
+    .box-p {
+        text-align: center;
+        flex-direction: column;
+        width: 100%;  
+    }
+    .box {
+        width: 90%;  
+    }
+    .box img {
+        width: 100%;
+    }
+}
+@media only screen and (min-width:791px) and (max-width:1279px) {
+       .container {
+    width: 98%;
+    margin: auto;
+    }
+    .nav-img img {
+        width: 20%;
+        margin-left: 10px;
+    }
+    #nav ul {
+        display: none;
+    }
+    #menu {
+        display: block;
+        margin-right: 20px;
+        font-size: 20px;
+        color: rgb(225, 218, 218);
+    }
+     .box-p {
+        text-align: center;
+        flex-direction: column;
+        width: 100%;  
+    }
+    .box {
+        width: 98%;  
+    }
+    .box img {
+        width: 100%;
+    }
+}
