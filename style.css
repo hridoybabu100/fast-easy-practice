@@ -188,7 +188,56 @@ body {
 
 /* footer section code hare  */
 
-
+#main {
+    background-color: black;   
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.foter-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.foter-card h2 {
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.foter-card p a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+}
+.foter-card img {
+    width: 220px;
+    border-radius: 6px;
+}
+.foter-card  a i {
+    font-size: 30px;
+    color: aliceblue;
+    width: 40px; 
+    
+}
+.office {
+    margin-top: 80px;
+    text-align: center;
+}
+.office h3 {
+    color: aliceblue;
+    font-size: 35px;
+    letter-spacing: 12px;
+    margin-bottom: 15px;
+}
+.office h4  {
+    color: aliceblue;
+    font-size: 20px;
+}
+.office p {
+    font-size: 16px;
+    color: aliceblue;
+    margin-top: 60px;
+}
 
 
 
@@ -258,6 +307,32 @@ body {
     }
     .box img {
         width: 100%;
+    }
+    .foter-p {
+        flex-direction: column;
+        text-align: center;
+    }
+    #main {
+    background-color: black;   
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    .office h3 {
+        font-size: 20px;
+    }
+    .office h4  {
+    color: aliceblue;
+    font-size: 10px;
+    margin: 0px 50px;
+    }
+    .office h3 {
+        letter-spacing: 7px;
+        font-weight: bold;
+    }
+    .office p {
+       margin-left: 20px;
+       margin-right: 20px;
     }
 }
 @media only screen and (min-width:791px) and (max-width:1279px) {
